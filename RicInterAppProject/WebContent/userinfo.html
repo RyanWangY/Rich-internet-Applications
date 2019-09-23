@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fruit Details</title>
+<link rel="stylesheet" href="css/styles.css" />
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/userinfo.js"></script>
+</head>
+<body>
+<div>
+	<button id="btnAdd" type="submit" >New user</button>
+</div>
+<div class="mainArea">
+
+<label>Id:</label>
+<input id="UserId" name="id" type="text" disabled />
+
+<label>UserName:</label>
+<input type="text" id="name" name="name" />
+
+<label>UserAccount:</label>
+<input type="text" id="account" name="account"/>
+
+<div id="oldpwd">
+<label>Password:</label>
+<input type="text" id="mypassword" name="mypassword" disabled/>
+</div>
+
+<div id="confirm" hidden="ture">
+
+<label>NewPassword:</label>
+<input type="text" id="newpassword" name="newpassword" />
+
+<label>Confirm NewPassword:</label>
+<input type="text" id="confpassword" name="confpassword"/>
+</div>
+
+<!-- <label>picture</label> -->
+<input type="text" id="picture" name="picture" hidden="true"/>
+
+<div>
+<img id="pic" height="300"/>
+</div>
+
+<button id="btnSave" type="submit" value="save">Save</button>
+<button id="btndelete" type="submit">Delete</button>
+<button id="btnChange" type="button">Change password</button>
+</div>
+
+</body>
+</html>
